@@ -15,7 +15,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     WebView mWebview;
     WebSettings mWebSettings;
-    TextView beginLoading,endLoading,loading,mtitle;
+    TextView beginLoading, endLoading, loading, mtitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +67,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        /***
+         * 测试
+         */
 
         //设置WebViewClient类
         mWebview.setWebViewClient(new WebViewClient() {
