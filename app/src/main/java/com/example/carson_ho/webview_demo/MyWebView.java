@@ -12,6 +12,7 @@ public class MyWebView extends WebView {
     public MyWebView(Context context) {
         super(context);
     }
+    //测试
 
     public MyWebView(Context context, AttributeSet attrs) {
         super(context, attrs);
