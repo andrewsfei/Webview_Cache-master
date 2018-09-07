@@ -54,9 +54,6 @@ public class MainActivity extends AppCompatActivity {
                 mtitle.setText(title);
             }
 
-
-
-            ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             //获取加载进度
             @Override
             public void onProgressChanged(WebView view, int newProgress) {
